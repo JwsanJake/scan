@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\projects\\dvk\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{11AB0941-81C9-439E-A684-0FEC05DD4F38}|DVK\\DVK.csproj|c:\\projects\\dvk\\dvk\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11AB0941-81C9-439E-A684-0FEC05DD4F38}|DVK\\DVK.csproj|solutionrelative:dvk\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11AB0941-81C9-439E-A684-0FEC05DD4F38}|DVK\\DVK.csproj|c:\\projects\\dvk\\dvk\\repositories\\person\\personrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11AB0941-81C9-439E-A684-0FEC05DD4F38}|DVK\\DVK.csproj|solutionrelative:dvk\\repositories\\person\\personrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11AB0941-81C9-439E-A684-0FEC05DD4F38}|DVK\\DVK.csproj|c:\\projects\\dvk\\dvk\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11AB0941-81C9-439E-A684-0FEC05DD4F38}|DVK\\DVK.csproj|solutionrelative:dvk\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11AB0941-81C9-439E-A684-0FEC05DD4F38}|DVK\\DVK.csproj|c:\\projects\\dvk\\dvk\\repositories\\company\\companyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11AB0941-81C9-439E-A684-0FEC05DD4F38}|DVK\\DVK.csproj|solutionrelative:dvk\\repositories\\company\\companyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11AB0941-81C9-439E-A684-0FEC05DD4F38}|DVK\\DVK.csproj|c:\\projects\\dvk\\dvk\\helpers\\notificationhelper\\notificationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11AB0941-81C9-439E-A684-0FEC05DD4F38}|DVK\\DVK.csproj|solutionrelative:dvk\\helpers\\notificationhelper\\notificationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11AB0941-81C9-439E-A684-0FEC05DD4F38}|DVK\\DVK.csproj|c:\\projects\\dvk\\dvk\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11AB0941-81C9-439E-A684-0FEC05DD4F38}|DVK\\DVK.csproj|solutionrelative:dvk\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11AB0941-81C9-439E-A684-0FEC05DD4F38}|DVK\\DVK.csproj|c:\\projects\\dvk\\dvk\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{11AB0941-81C9-439E-A684-0FEC05DD4F38}|DVK\\DVK.csproj|solutionrelative:dvk\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11AB0941-81C9-439E-A684-0FEC05DD4F38}|DVK\\DVK.csproj|c:\\projects\\dvk\\dvk\\datatransfer\\notificationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11AB0941-81C9-439E-A684-0FEC05DD4F38}|DVK\\DVK.csproj|solutionrelative:dvk\\datatransfer\\notificationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11AB0941-81C9-439E-A684-0FEC05DD4F38}|DVK\\DVK.csproj|c:\\projects\\dvk\\dvk\\controllers\\filecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11AB0941-81C9-439E-A684-0FEC05DD4F38}|DVK\\DVK.csproj|solutionrelative:dvk\\controllers\\filecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11AB0941-81C9-439E-A684-0FEC05DD4F38}|DVK\\DVK.csproj|c:\\projects\\dvk\\dvk\\models\\person\\personbaseinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11AB0941-81C9-439E-A684-0FEC05DD4F38}|DVK\\DVK.csproj|solutionrelative:dvk\\models\\person\\personbaseinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EventController.cs",
+              "DocumentMoniker": "C:\\projects\\dvk\\DVK\\Controllers\\EventController.cs",
+              "RelativeDocumentMoniker": "DVK\\Controllers\\EventController.cs",
+              "ToolTip": "C:\\projects\\dvk\\DVK\\Controllers\\EventController.cs",
+              "RelativeToolTip": "DVK\\Controllers\\EventController.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAArwF8AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T09:39:21.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NotificationController.cs",
+              "DocumentMoniker": "C:\\projects\\dvk\\DVK\\Controllers\\NotificationController.cs",
+              "RelativeDocumentMoniker": "DVK\\Controllers\\NotificationController.cs",
+              "ToolTip": "C:\\projects\\dvk\\DVK\\Controllers\\NotificationController.cs",
+              "RelativeToolTip": "DVK\\Controllers\\NotificationController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T09:33:41.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\projects\\dvk\\DVK\\appsettings.json",
+              "RelativeDocumentMoniker": "DVK\\appsettings.json",
+              "ToolTip": "C:\\projects\\dvk\\DVK\\appsettings.json",
+              "RelativeToolTip": "DVK\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-15T06:40:16.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CompanyRepository.cs",
+              "DocumentMoniker": "C:\\projects\\dvk\\DVK\\Repositories\\Company\\CompanyRepository.cs",
+              "RelativeDocumentMoniker": "DVK\\Repositories\\Company\\CompanyRepository.cs",
+              "ToolTip": "C:\\projects\\dvk\\DVK\\Repositories\\Company\\CompanyRepository.cs",
+              "RelativeToolTip": "DVK\\Repositories\\Company\\CompanyRepository.cs",
+              "ViewState": "AgIAADoBAAAAAAAAAAAAwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T04:32:50.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NotificationHelper.cs",
+              "DocumentMoniker": "C:\\projects\\dvk\\DVK\\Helpers\\NotificationHelper\\NotificationHelper.cs",
+              "RelativeDocumentMoniker": "DVK\\Helpers\\NotificationHelper\\NotificationHelper.cs",
+              "ToolTip": "C:\\projects\\dvk\\DVK\\Helpers\\NotificationHelper\\NotificationHelper.cs",
+              "RelativeToolTip": "DVK\\Helpers\\NotificationHelper\\NotificationHelper.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwCIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T04:32:50.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PersonController.cs",
+              "DocumentMoniker": "C:\\projects\\dvk\\DVK\\Controllers\\PersonController.cs",
+              "RelativeDocumentMoniker": "DVK\\Controllers\\PersonController.cs",
+              "ToolTip": "C:\\projects\\dvk\\DVK\\Controllers\\PersonController.cs",
+              "RelativeToolTip": "DVK\\Controllers\\PersonController.cs",
+              "ViewState": "AgIAAIgBAAAAAAAAAAArwJUBAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T09:43:11.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PersonRepository.cs",
+              "DocumentMoniker": "C:\\projects\\dvk\\DVK\\Repositories\\Person\\PersonRepository.cs",
+              "RelativeDocumentMoniker": "DVK\\Repositories\\Person\\PersonRepository.cs",
+              "ToolTip": "C:\\projects\\dvk\\DVK\\Repositories\\Person\\PersonRepository.cs",
+              "RelativeToolTip": "DVK\\Repositories\\Person\\PersonRepository.cs",
+              "ViewState": "AgIAAKQBAAAAAAAAAAAnwLABAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T05:49:32.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PersonBaseInfo.cs",
+              "DocumentMoniker": "C:\\projects\\dvk\\DVK\\Models\\Person\\PersonBaseInfo.cs",
+              "RelativeDocumentMoniker": "DVK\\Models\\Person\\PersonBaseInfo.cs",
+              "ToolTip": "C:\\projects\\dvk\\DVK\\Models\\Person\\PersonBaseInfo.cs",
+              "RelativeToolTip": "DVK\\Models\\Person\\PersonBaseInfo.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAmwB4AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T04:54:09.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NotificationResult.cs",
+              "DocumentMoniker": "C:\\projects\\dvk\\DVK\\DataTransfer\\NotificationResult.cs",
+              "RelativeDocumentMoniker": "DVK\\DataTransfer\\NotificationResult.cs",
+              "ToolTip": "C:\\projects\\dvk\\DVK\\DataTransfer\\NotificationResult.cs",
+              "RelativeToolTip": "DVK\\DataTransfer\\NotificationResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAvwBEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T09:38:58.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FileController.cs",
+              "DocumentMoniker": "C:\\projects\\dvk\\DVK\\Controllers\\FileController.cs",
+              "RelativeDocumentMoniker": "DVK\\Controllers\\FileController.cs",
+              "ToolTip": "C:\\projects\\dvk\\DVK\\Controllers\\FileController.cs",
+              "RelativeToolTip": "DVK\\Controllers\\FileController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAnwDcAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T04:07:05.289Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

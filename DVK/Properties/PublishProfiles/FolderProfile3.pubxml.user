@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>\\zhezapp02\inetpub$\DVK-backend</_PublishTargetUrl>
+    <History>True|2024-08-09T10:28:19.8446918Z;True|2024-08-09T14:01:20.6300138+05:00;True|2024-08-09T13:20:45.0878695+05:00;True|2024-08-09T13:09:55.1241664+05:00;True|2024-08-09T13:06:31.8069997+05:00;True|2024-08-09T13:05:32.6916219+05:00;True|2024-08-09T11:47:05.3659401+05:00;True|2024-08-09T11:43:00.2468712+05:00;True|2024-08-09T11:34:39.3127401+05:00;True|2024-08-09T11:20:26.7800745+05:00;True|2024-08-09T10:58:55.4718504+05:00;True|2024-08-09T10:15:48.2752470+05:00;True|2024-08-08T09:18:01.6580169+05:00;True|2024-08-08T09:17:56.2484117+05:00;True|2024-08-08T09:08:41.0916627+05:00;</History>
+  </PropertyGroup>
+</Project>

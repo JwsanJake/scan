@@ -1,0 +1,225 @@
+﻿
+
+CREATE TABLE VIOLATION_info(
+	id int identity not null,
+	registration_number nvarchar(20),
+	violation_create_executor nvarchar(20),
+	executor_subdivision nvarchar(80),
+	event_identifier nvarchar(20),
+	violation_register_date nvarchar(20),
+	violation_description nvarchar(800),
+	violation_index nvarchar(80),
+	violation_category nvarchar(80),
+	violation_kind nvarchar(80),
+	violation_object nvarchar(200),
+	violation_subject nvarchar(20),
+	violation_sum nvarchar(80),
+	violation_damage nvarchar(80),
+	violation_damage_sum nvarchar(80),
+	violation_short_measure_sum nvarchar(80),
+	violation_compensation_for_damage nvarchar(80),
+	violation_penalties nvarchar(80),
+	violation_penalties_sum nvarchar(80),
+	violation_compensation_for_penalties nvarchar(80),
+	violation_response_measures nvarchar(80),
+	relation_for_law_enforcement_agencies nvarchar(80)
+)
+
+CREATE TABLE VIOLATION_categories(
+	id int identity not null,
+	violation_category_name nvarchar(40)
+)
+
+CREATE TABLE VIOLATION_kinds(
+	id int identity not null,
+	violation_kind_name nvarchar(40)
+)
+
+CREATE TABLE VIOLATION_response_measures(
+	id int identity not null,
+	violation_response_measure_name nvarchar(40)
+)
+
+CREATE TABLE VIOLATION_response_measures_types(
+	id int identity not null,
+	violation_response_measure_id int,
+	violation_response_measure_type_name nvarchar(40)
+)
+
+INSERT INTO VIOLATION_categories(violation_category_name) VALUES (N'хищение'),(N'злоупотребление'),(N'коррупция'),(N'нарушение контрольно-пропускного режима'),(N'нарушени внутриобъектного режима'),
+(N'нарушение по тех.укрепленности'),(N'нарушение охраны'),(N'нарушение учета'),(N'прочие нарушения')
+
+INSERT INTO VIOLATION_kinds(violation_kind_name) VALUES (N'получение незаконного вознаграждения'),(N'использование ресурсов предприятия в личных целях'),(N'хищение'),(N'попытка хищения'),(N'приготовление к хищению'),
+(N'недостача'),(N'излишки'),(N'необоснованное списание'),(N'нарушение порядка учета'),(N'ненадлежащая проработка рынка'),(N'завышение стоимости проработки ТРУ'),(N'занижение стоимости реализации ТРУ'),
+(N'необоснованное приобретение ТРУ'),(N'нарушение процедур заключения договора'),(N'завышение объемов выполненных работ'), (N'поставка/приемка ТМЦ не соответствующего качества'),(N'необоснованное заключение о соответствии ТМЦ'),
+(N'взаимодействие с недобросовестным поставщиком'),(N'нарушение порядка несения охранной службы'),(N'нахождение в состоянии алкогольного/наркотического опьянения'),(N'обнаружение алкогольной продукции, наркотических средств'),
+(N'курение в неположенном месте'),(N'пользование средствами мобильной связи'),(N'сон на рабочем месте'),(N'кадровые нарушения'),(N'предоставление фиктивной документации'),(N'отсутствие контроля за работой подчиненных'),
+(N'прочие нарушения')
+
+INSERT INTO VIOLATION_response_measures(violation_response_measure_name) VALUES (N'дисциплинарная ответственность'),(N'материальная ответственность'),(N'в части устранения нарушения'),(N'в части устранения нарушения')
+INSERT INTO VIOLATION_response_measures_types (violation_response_measure_id, violation_response_measure_type_name) VALUES (1, N'расторжение ТД'),(1, N'перевод на нижестоящую должность'),(1, N'отстранение от работы'),
+(1, N'строгий выговор'),(1, N'выговор'),(1, N'замечание'),(2, N'депремирование'),(2, N'иное')
+
+
+
+
+
+
+CREATE TABLE EVENT_contractors_check(
+	id int identity not null,
+	identifier nvarchar(30),
+	register_number nvarchar(40),
+	event_create_executor nvarchar(30),
+	executor_subdivision nvarchar(30),
+	event_start_date datetime,
+	event_control_date datetime,
+	event_status nvarchar(20),
+	event_doc_ground nvarchar(40),
+	event_object nvarchar(600),
+	event_subject nvarchar(20),
+	event_subject_of_contract nvarchar(60),
+	event_contract_amount nvarchar(60),
+	event_content nvarchar(600),
+	event_result nvarchar(20),
+	event_conclusion nvarchar(20),
+	event_conclusion_description nvarchar(600),
+	event_conclusion_supervisor nvarchar(20),
+	event_end_date datetime
+)
+
+CREATE TABLE EVENT_personnel_check(
+	id int identity not null,
+	identifier nvarchar(30),
+	register_number nvarchar(40),
+	event_create_executor nvarchar(30),
+	executor_subdivision nvarchar(30),
+	event_start_date datetime,
+	event_control_date datetime,
+	event_status nvarchar(20),
+	event_doc_ground nvarchar(40),
+	event_object nvarchar(600),
+	event_subject nvarchar(20),
+	event_vacant_position nvarchar(60),
+	event_transfer_position nvarchar(60),
+	event_content nvarchar(600),
+	event_result nvarchar(20),
+	event_conclusion nvarchar(20),
+	event_conclusion_description nvarchar(600),
+	event_conclusion_supervisor nvarchar(20),
+	event_end_date datetime
+)
+
+CREATE TABLE EVENT_personnel_monitoring(
+	id int identity not null,
+	identifier nvarchar(30),
+	register_number nvarchar(40),
+	event_create_executor nvarchar(30),
+	executor_subdivision nvarchar(30),
+	event_start_date datetime,
+	event_control_date datetime,
+	event_status nvarchar(20),
+	event_doc_ground nvarchar(40),
+	event_object nvarchar(600),
+	event_subject nvarchar(20),
+	event_person_position nvarchar(80),
+	event_content nvarchar(600),
+	event_result nvarchar(20),
+	event_conclusion nvarchar(20),
+	event_conclusion_description nvarchar(600),
+	event_conclusion_supervisor nvarchar(20),
+	event_end_date datetime
+)
+
+CREATE TABLE EVENT_contractors_monitoring (
+	id int identity not null,
+	identifier nvarchar(30),
+	register_number nvarchar(40),
+	event_create_executor nvarchar(30),
+	executor_subdivision nvarchar(30),
+	event_start_date datetime,
+	event_control_date datetime,
+	event_status nvarchar(20),
+	event_doc_ground nvarchar(40),
+	event_object nvarchar(600),
+	event_subject nvarchar(20),
+	event_number_of_contract nvarchar(60),
+	event_subject_of_contract nvarchar(60),
+	event_contract_amount nvarchar(60),
+	event_contract_executor nvarchar(60),
+	event_content nvarchar(600),
+	event_result nvarchar(20),
+	event_conclusion nvarchar(20),
+	event_conclusion_description nvarchar(600),
+	event_conclusion_supervisor nvarchar(20),
+	event_end_date datetime
+)
+
+CREATE TABLE EVENT_information_search_activity (
+	id int identity not null,
+	identifier nvarchar(30),
+	register_number nvarchar(40),
+	event_create_executor nvarchar(30),
+	executor_subdivision nvarchar(30),
+	event_start_date datetime,
+	event_control_date datetime,
+	event_status nvarchar(20),
+	event_doc_ground nvarchar(40),
+	event_object nvarchar(600),
+	event_subject nvarchar(20),
+	event_ISA_type nvarchar(200),
+	event_content nvarchar(600),
+	event_result nvarchar(20),
+	event_conclusion nvarchar(20),
+	event_conclusion_description nvarchar(600),
+	event_conclusion_supervisor nvarchar(20),
+	event_end_date datetime
+)
+
+
+CREATE TABLE VIOLATION_common (
+	id int identity not null,
+	identifier nvarchar(30),
+	register_number nvarchar(40),
+	violation_create_executor nvarchar(30),
+	executor_subdivision nvarchar(30),
+	event_identifier nvarchar(30),
+
+	violation_type nvarchar(40),
+	violation_register_date datetime,
+	violation_description nvarchar(max),
+	violation_index nvarchar(30),
+	violation_category nvarchar(40),
+	kind_of_violation nvarchar(60),
+	violation_object nvarchar(20),
+	violation_subject nvarchar(20),
+)
+
+
+CREATE TABLE VIOLATION_additional_fields (
+	id int identity not null,
+	identifier nvarchar(30),
+	violation_type nvarchar(40),
+	violation_sum nvarchar(60)
+)
+
+
+insert into [dbo].[VIOLATION_categories] (violation_category)
+VALUES (N'Хищение активов'),(N'Злоупотребления'),(N'Коррупционные нарушения'),(N'Нарушения порядка учета'),(N'Нарушения пропускного режима'),(N'Нарушение внутриобъектового режима'),
+(N'Нарушение со стороны охранной организации'), (N'Нарушения по ИБ'),(N'Нарушение условий поставки ТМЦ'), (N'Неисправности технических средств безопасности'),(N'Прочие нарушения')
+
+INSERT INTO VIOLATION_kinds (category_id, violation_kind)
+VALUES (1, N'Хищение'),(1, N'Попытка хищения'),(1, N'Приготовление к хищению'),
+(1, N'Незаконная добыча драгоценных металлов'),(1, N'Обнаружение ЗСМ'), (1, N'Сооружение и эксплуатация незаконных помещений (цех/кандейка/пролаз)'),(1, N'Хищение'),
+(1, N'Нелегальное старательство'),(1, N'Прочие нарушения'), (2, N'Использование ресурсов предприятия в личных целях'), (2, N'Хищение'), (2, N'Попытка хищения'),(2, N'Приготовление к хищению'),
+(2, N'Недостача'),(2, N'Излишки'),(2, N'Необоснованное списание'),(2, N'Ненадлежащая проработка рынка'),(2, N'Завышение стоимости приобретения ТРУ'),(2, N'Занижение стоимости реализации ТРУ'),
+(2, N'Необоснованное приобретение ТРУ'),(2, N'Нарушение процедур заключения договора'),(2, N'Завышение объемов выполненных работ'),(2, N'Хищение'), (2, N'Необоснованное заключение о соответствии ТМЦ'),
+(2, N'Кадровые нарушения'),(2, N'Утечка конфиденциальной информации'),(2, N'Повреждение технических систем безопасности'),(2, N'Отключение технических систем безопасности'),(2, N'Прочие нарушения'),
+(3, N'Получение незаконного вознаграждения'),(3, N'Использование ресурсов предприятия в личных целях'),(3, N'Прочие нарушения'),(4, N'Недостача'),(4, N'Излишки'),(4, N'Необоснованное списание'),
+(4, N'Нарушение порядка учета'),(4, N'Отсутсвие контроля за работой подчиненных'),(4, N'Прочие нарушения'),(5, N'Нахождение в состоянии алкогольного/наркотического опьянения'),
+(5, N'Обнаружение алкогольной продукции, наркотических средств'),(5, N'Курение в неположенном месте'),(5, N'Пользование средствами мобильной связи'),(5, N'Сон на рабочем месте'),
+(5, N'Отсутсвие контроля за работой подчиненных'),(5, N'Прочие нарушения'),(6, N'Получение незаконного вознаграждения'),(6, N'Использование ресурсов предприятия в личных целях'),
+(6, N'Хищение'),(6, N'Попытка хищения'),(6, N'Приготовление к хищению'),(6, N'Нарушение порядка несения охранной службы'),(6, N'Нахождение в состоянии алкогольного/наркотического опьянения'),
+(6, N'Обнаружение алкогольной продукции/наркотических средств'),(6, N'Курение в неположенном месте'),(6, N'Пользование средствами мобильной связи'),(6, N'Сон на рабочем месте'),
+(6, N'Повреждение имущества предприятия'),(6, N'Прочие нарушения'), (7, N'Утечка конфиденциальной информации'),(7, N'Выявление технических уязвимостей'),(7, N'Выявление вредоносного ПО'),
+(7, N'Прочие нарушения'),(8, N'ТМЦ неизвестного происхождения'),(8, N'Поставка ТМЦ не соответсвующего качества/количества'),(8, N'Необоснованное заключение о соответствии ТМЦ'),
+(8, N'Прочие нарушения'),(9, N'Повреждения технических систем безопаности'),(9, N'Отключение технических систем безопасности'),(9, N'Прочие нарушения'),(10, N'Прочие нарушения')

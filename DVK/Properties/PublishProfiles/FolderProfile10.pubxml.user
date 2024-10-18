@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>\\zhezapp02\inetpub$\DVK-backend</_PublishTargetUrl>
+    <History>True|2024-09-09T05:17:08.8908097Z;True|2024-09-09T10:10:27.5235676+05:00;</History>
+  </PropertyGroup>
+</Project>
